@@ -43,5 +43,5 @@ def main():
     usuarios={}
     escolhaMenu=0
     menu(escolhaMenu,usuarios)
-if name == "main":
+if __name__ == "__main__":
     main()
